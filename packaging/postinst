@@ -1,0 +1,7 @@
+#!/bin/sh
+# start the service now (after a reboot load-launcher starts it on its own)
+if [ "$1" = "configure" ]; then
+    initctl stop apps/meegrid-n9 >/dev/null 2>&1 || true
+    initctl start apps/meegrid-n9 >/dev/null 2>&1 || true
+fi
+exit 0

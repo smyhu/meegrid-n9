@@ -1,0 +1,18 @@
+Package: meegrid-n9
+Version: @VERSION@
+Architecture: all
+Section: user/utilities
+Priority: optional
+Maintainer: smyhu <smyhu@users.noreply.github.com>
+Depends: python (>= 2.6), python-pyside.qtdeclarative, python-pyside.qtgui, python-dbus, qt-components
+Installed-Size: @SIZE@
+Homepage: https://github.com/smyhu/meegrid-n9
+Description: MeeGrid - backup and restore of the home screen icon layout
+ Saves the positions of the icons, the folders and the quick launch bar of
+ the Nokia N9 home screen to MyDocs/MeeGrid and puts them back after a
+ reflash or when the layout gets scrambled. Shows which apps from a backup
+ are not installed yet. Optional automatic daily backup. Languages: en, pl.
+ Designed and written by Claude (Anthropic) together with smyhu.
+XB-Maemo-Display-Name: MeeGrid
+XB-Maemo-Icon-26:
+@ICON@

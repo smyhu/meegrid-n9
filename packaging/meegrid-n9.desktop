@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=MeeGrid
+Comment=Backup and restore of the icon layout
+Exec=/usr/bin/python /opt/meegrid-n9/main.py
+Icon=/usr/share/icons/hicolor/80x80/apps/meegrid-n9.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

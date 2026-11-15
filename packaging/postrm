@@ -1,0 +1,6 @@
+#!/bin/sh
+# backups in MyDocs/MeeGrid are kept on purpose (they are for after a reflash)
+if [ "$1" = "purge" ] || [ "$1" = "remove" ]; then
+    rm -rf /var/run/meegrid
+fi
+exit 0
